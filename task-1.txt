@@ -12,10 +12,10 @@ Selesai
 1B.
 ---algoritma---
 Mulai
-Siapkan wadah variabel
-Masukkan teks
+Buat function ubahHurufAJadiI()
 Ubah huruf vokal "a" menjadi "i"
+Masukkan teks
 Selesai
 ---flowchart---
 
-https://lucid.app/lucidchart/6b5629b7-7ea4-4f9c-9163-0497d297055b/edit?view_items=zSLcvjpV6~G4&invitationId=inv_f7acc184-06d9-4bc8-82e4-d36febeae5a9
+https://lucid.app/lucidchart/6b5629b7-7ea4-4f9c-9163-0497d297055b/edit?invitationId=inv_f7acc184-06d9-4bc8-82e4-d36febeae5a9&page=0_0#
