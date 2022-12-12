@@ -1,21 +1,19 @@
 1A.
 ---algoritma--- 
-Mulai
-Siapkan wadah variabel
-Masukkan sebuah teks
-Cek apakah kata tersebut palindrom atau bukan?
-Jika iya maka hasilnya adalah INI PALINDROME
-Jika tidak maka hasilnya adalah INI BUKAN PALINDROME
-Selesai
+- Mulai
+- Masukkan teks
+- Cek apakah teks tersebut palindrom atau bukan?
+- Jika iya maka hasilnya adalah INI PALINDROME
+- Jika tidak maka hasilnya adalah INI BUKAN PALINDROME
+- Selesai
 ---flowchart---
 
 1B.
 ---algoritma---
-Mulai
-Buat function ubahHurufAJadiI()
-Ubah huruf vokal "a" menjadi "i"
-Masukkan teks
-Selesai
+- Mulai
+- Masukkan teks
+- Ubah huruf vokal "a" menjadi "o"
+- Selesai
 ---flowchart---
 
 https://lucid.app/lucidchart/6b5629b7-7ea4-4f9c-9163-0497d297055b/edit?invitationId=inv_f7acc184-06d9-4bc8-82e4-d36febeae5a9&page=0_0#

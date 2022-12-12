@@ -1,27 +1,23 @@
-const bahasaIndonesia = 100;
-const bahasaInggris = 100;
-const matematika = 100;
-let IPA = 50;
-const average = (bahasaIndonesia + bahasaInggris + matematika + IPA) / 4;
-let averageUN = (bahasaIndonesia + bahasaInggris + matematika + IPA) / 4;
+function raporSiswa(bahasaIndonesia, bahasaInggris, matematika, IPA) {
+  let average = (bahasaIndonesia + bahasaInggris + matematika + IPA) / 4;
+  const nilaiAverage = "Nilai rata-rata = ";
+  const grade = "Grade = ";
 
-if (bahasaIndonesia && bahasaInggris && matematika && IPA == undefined) {
-} else if (
-  bahasaIndonesia &&
-  bahasaInggris &&
-  matematika &&
-  IPA !== undefined
-) {
-  console.log(`Nilai rata-rata = ${average}`);
-  if (average >= 90) {
-    console.log("Grade = A");
-  } else if (average >= 80) {
-    console.log("Grade = B");
-  } else if (average >= 70) {
-    console.log("Grade = C");
-  } else if (average >= 60) {
-    console.log("Grade = D");
-  } else if (average >= 0) {
-    console.log("Grade = E");
+  if (bahasaIndonesia && bahasaInggris && matematika && IPA === undefined) {
+    return "Semua nilai harus terisi!";
+  } else {
+    console.log(nilaiAverage + average);
+    if (average >= 90) {
+      return grade + "A";
+    } else if (average >= 80) {
+      return grade + "B";
+    } else if (average >= 70) {
+      return grade + "C";
+    } else if (average >= 60) {
+      return grade + "D";
+    } else if (average >= 0) {
+      return grade + "E";
+    }
   }
 }
+console.log(raporSiswa(100, 100, 100, 90));
