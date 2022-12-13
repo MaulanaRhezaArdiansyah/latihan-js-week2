@@ -16,5 +16,6 @@ const biodata = {
   interestInCoding: true,
 };
 
+console.log(biodata);
 console.log(biodata.schoolList.name[0]);
 console.log(biodata.schoolList.yearIn[0]);

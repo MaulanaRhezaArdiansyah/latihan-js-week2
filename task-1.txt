@@ -17,3 +17,34 @@
 ---flowchart---
 
 https://lucid.app/lucidchart/6b5629b7-7ea4-4f9c-9163-0497d297055b/edit?invitationId=inv_f7acc184-06d9-4bc8-82e4-d36febeae5a9&page=0_0#
+
+
+
+
+
+
+
+
+
+
+
+1A
+- Mulai
+- Masukkan teks
+- Ubah teks string menjadi array
+- Buat index teks menjadi terbalik
+- Cek apakah teks tersebut palindrom atau bukan?
+- Jika iya maka hasilnya adalah INI PALINDROME
+- Jika tidak maka hasilnya adalah INI BUKAN PALINDROME
+- Selesai
+
+1B
+- Mulai
+- Masukkan teks
+- Ubah teks string jadi array
+- Ubah huruf vokal "a" yang ada di dalam index array menjadi "o"
+- Ubah teks yang tadinya berbentuk index array menjadi string kembali 
+- Tampilkan hasil teks baru yang huruf “a” nya sudah diubah menjadi huruf “o”
+- Selesai
+
+

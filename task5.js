@@ -1,11 +1,25 @@
+// Buatlah code dari tugas algoritma flowchart task 1.b,
+// tambahkan validasi tipe data teks harus string,
+// dan masukan semua proses ke dalam fungsi
+
 function ubahHurufVokal(teks) {
-  const error = "Tipe data harus string!";
-  if (typeof teks === typeof "string") {
-    const teksBaru = teks.replace(/a/gi, "o");
-    return teksBaru;
+  let teksBaru = "";
+  const hurufI = "i";
+  const inputSalah = "Input harus berupa teks!";
+  if (typeof teks !== typeof "string") {
+    return inputSalah;
   } else {
-    return error;
+    teks = teks.toLowerCase();
+
+    for (let i = 0; i < teks.length; i++) {
+      if (teks[i] == "a") {
+        teksBaru += hurufI;
+      } else {
+        teksBaru += teks[i];
+      }
+    }
   }
+  return teksBaru;
 }
 
-console.log(ubahHurufVokal("Jakarta"));
+console.log(ubahHurufVokal("JAKARTA"));
